@@ -1,0 +1,134 @@
+<!doctype html>
+<html class="">
+<head>
+
+  <title>Wellcome Decomposition</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+
+  <div class="splash-screen">
+
+    <div class="capture">
+      <img src="1.jpg">
+      <img src="2.jpg">
+      <img src="3.jpg">
+      <img src="4.jpg">
+      <img src="5.jpg">
+    </div>
+
+    <div class="inner">
+      <div class="title">
+        Body decomposition<br> in 5 stages
+      </div>
+
+      <div class="cta">
+        <button onclick="select('.splash-screen').classList.add('display-none')">
+          <span>Next</span>
+          <div class="image"></div>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+
+    <div class="container text">
+
+      <div class="description stage-1">
+        <div class="title">
+          Fresh
+          <span>24-  72 hours after death</span>
+        </div>
+        Autolysis: Once the human dies, blood flow has stops meaning no oxygen is able to get to all parts of the body. Subsequently, carbon dioxide levels in the blood increase and pH level starts to decrease.
+      </div>
+
+      <div class="description stage-2 display-none1">
+        <div class="title">
+          Bloat
+          <span>3 - 5 days after death</span>
+        </div>
+        Putrefaction: A few days after death, the body starts to bloat. Waste begins to build up in parts of the body. The internal organs start to break down which results in a strong odour being produced and the body discolouring.
+        <br>
+        Clothes start to embed the skin due to the immense pressure building up in the body. Fluids are forced out of different orifices during bloating, such as the mouth, nose and rectum.
+      </div>
+
+      <div class="description stage-3 display-none1">
+        <div class="title">
+          Active Decay
+          <span>8 - 10 days after death</span>
+        </div>
+        Black Putrefaction: At this stage, the body experiences the greatest mass loss because of maggots feeding and all bodily fluids starting to drain out. The body starts to collapse. A very strong odour is released. The skin turns black as the body decomposes.
+      </div>
+
+      <div class="description stage-4 display-none1">
+        <div class="title">
+          Advance Decay
+          <span>2 - 3 weeks after death</span>
+        </div>
+        Butyric Fermentation: Insect activity is reduced during this stage. When the carcass is located on soil, the area surrounding it will show evidence of vegetation death.
+      </div>
+
+      <div class="description stage-5 display-none1">
+        <div class="title">
+          Dry Remains
+          <span>1 month after death</span>
+        </div>
+          Skeletonization: The body is almost completely dry at this point. The skin starts to look like a leathery surface. There is a slow rate of decay occurring now. Vultures aid in the removal of flesh and soft tissue left behind. This may take up to a year. Once all soft tissue is removed, the body is skeletonised.
+      </div>
+
+      <div class="video-nav">
+        <button id="back" disabled></button>
+        <button id="next"></button>
+      </div>
+
+    </div>
+
+    <div class="container visuals">
+
+      <video id="body-video" src="body.mp4" muted poster="posterimage.jpg"></video>
+
+      <div class="sidebar">
+
+        <div class="timescale selected" onclick="skip(0)">
+          <div class="text">Stage 1</div>
+          <div class="dot"></div>
+        </div>
+        <div class="timescale" onclick="skip(1)">
+          <div class="text">Stage 2</div>
+          <div class="dot"></div>
+        </div>
+        <div class="timescale" onclick="skip(2)">
+          <div class="text">Stage 3</div>
+          <div class="dot"></div>
+        </div>
+        <div class="timescale" onclick="skip(3)">
+          <div class="text">Stage 4</div>
+          <div class="dot"></div>
+        </div>
+        <div class="timescale" onclick="skip(4)">
+          <div class="text">Stage 5</div>
+          <div class="dot"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+  </script>
+
+  <noscript>
+  </noscript>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

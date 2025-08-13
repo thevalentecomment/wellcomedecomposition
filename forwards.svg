@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Decomposition-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stage-5" transform="translate(-303.000000, -456.000000)" fill="#FF5B5B">
+            <path d="M350.67767,490 L350.813708,489.863961 L333.136039,472.186292 L328.186292,477.136039 L341.050253,490 L328.186292,502.863961 L333.136039,507.813708 L350.813708,490.136039 L350.67767,490 Z M337,524 C318.222319,524 303,508.777681 303,490 C303,471.222319 318.222319,456 337,456 C355.777681,456 371,471.222319 371,490 C371,508.777681 355.777681,524 337,524 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
